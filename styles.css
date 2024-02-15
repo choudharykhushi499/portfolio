@@ -9,6 +9,7 @@ body {
     color: #ededed;
     background: #212121;
     box-sizing: border-box;
+    overflow-x:hiddin;
 }
 
 .header {
@@ -64,6 +65,7 @@ body {
     align-items: center;
     padding: 70px 10% 0;
     box-sizing: border-box;
+    right:10%;
 }
 
 .home-content {
@@ -99,7 +101,7 @@ body {
     font-size: 25px;
     color: orange;
     text-decoration: none;
-    margin: 15px 3px 30px 12px;
+    margin: 25px 3px 30px 12px;
     display: inline-block;
     padding: 5px;
 }
