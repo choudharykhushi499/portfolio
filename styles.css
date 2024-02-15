@@ -47,6 +47,8 @@ body {
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    position: sticky;
+    top:0;
 }
 
 .navbar a:hover {
@@ -54,11 +56,13 @@ body {
 }
 
 .home {
+    margin-top: auto;
     position: relative;
-    width: 100%;
+    left: -8em;
+    width: 100vw;
     justify-content: space-between;
     height: 100vh;
-    background: url(black.jpg) no-repeat;
+    /* background: url(black.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -66,8 +70,13 @@ body {
     padding: 70px 10% 0;
     box-sizing: border-box;
     right:10%;
+    
 }
-
+/* .khushi{
+   position: relative;
+   top: 1em;
+   left: 1em;
+} */
 .home-content {
     max-width: 600px;
 }
