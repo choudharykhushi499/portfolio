@@ -47,7 +47,6 @@ body {
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
-    display: flex;
 }
 
 .navbar a:hover {
