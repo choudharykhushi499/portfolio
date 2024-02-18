@@ -62,7 +62,6 @@ body {
     width: 100vw;
     justify-content: space-between;
     height: 100vh;
-    /* background: url(black.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -72,11 +71,7 @@ body {
     right:10%;
     
 }
-/* .khushi{
-   position: relative;
-   top: 1em;
-   left: 1em;
-} */
+
 .home-content {
     max-width: 600px;
 }
@@ -107,7 +102,7 @@ body {
     background: transparent;
     border: 2px solid orange;
     border-radius: 50px;
-    font-size: 25px;
+    font-size: 15px;
     color: orange;
     text-decoration: none;
     margin: 25px 3px 30px 12px;
